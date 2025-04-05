@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\views\\prestamos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:views\\prestamos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\views\\prestamos\\misprestamos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:views\\prestamos\\misprestamos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\views\\autores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:views\\autores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Data\\Migrations\\20250405040749_lector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250405040749_lector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\views\\autores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:views\\autores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\views\\libros\\disponibles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:views\\libros\\disponibles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\resendemailconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|c:\\users\\eduardo\\desktop\\uniandes\\aplicaciones web\\parcial2\\bibliotecamvc\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA0129-76BE-4438-BA60-DEB8A6C8864E}|BibliotecaMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "Controllers\\LibrosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:51:28.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Libros\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libros\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Libros\\Create.cshtml",
+              "RelativeToolTip": "Views\\Libros\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T03:50:57.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ForgotPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwBgAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:23:30.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExternalLogin.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:23:22.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Email.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:23:16.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MisPrestamos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Prestamos\\MisPrestamos.cshtml",
+              "RelativeDocumentMoniker": "Views\\Prestamos\\MisPrestamos.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Prestamos\\MisPrestamos.cshtml",
+              "RelativeToolTip": "Views\\Prestamos\\MisPrestamos.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwFYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T02:50:38.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Prestamos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Prestamos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Prestamos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Prestamos\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAFkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T02:48:54.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Autores\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Autores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Autores\\Create.cshtml",
+              "RelativeToolTip": "Views\\Autores\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T04:27:36.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250405040749_lector.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Data\\Migrations\\20250405040749_lector.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250405040749_lector.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Data\\Migrations\\20250405040749_lector.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250405040749_lector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T04:07:50.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Libros\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libros\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Libros\\Index.cshtml",
+              "RelativeToolTip": "Views\\Libros\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T02:43:23.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T04:15:37.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAwHUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:01:13.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Disponibles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Libros\\Disponibles.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libros\\Disponibles.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Libros\\Disponibles.cshtml",
+              "RelativeToolTip": "Views\\Libros\\Disponibles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T02:48:21.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PrestamosController.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Controllers\\PrestamosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrestamosController.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Controllers\\PrestamosController.cs",
+              "RelativeToolTip": "Controllers\\PrestamosController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:34:07.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Autores\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Autores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Views\\Autores\\Index.cshtml",
+              "RelativeToolTip": "Views\\Autores\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T03:33:02.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:23:40.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResendEmailConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:24:19.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\UNIANDES\\APLICACIONES WEB\\Parcial2\\BibliotecaMVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T01:21:30.269Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

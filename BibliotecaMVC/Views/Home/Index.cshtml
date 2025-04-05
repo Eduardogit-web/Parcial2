@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido al Sistema de Gestión de Biblioteca</h1>
+    <p>Accede a los diferentes módulos desde el menú de navegación.</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5 class="card-title">Gestión de Libros</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Administra el catálogo de libros de la biblioteca.</p>
+                <a asp-controller="Libros" asp-action="Index" class="btn btn-outline-primary">Ver Libros</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header bg-success text-white">
+                <h5 class="card-title">Libros Disponibles</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Consulta los libros disponibles para préstamo.</p>
+                <a asp-controller="Libros" asp-action="Disponibles" class="btn btn-outline-success">Ver Disponibles</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h5 class="card-title">Préstamos</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Gestiona los préstamos de libros a usuarios.</p>
+                @if (User.IsInRole("Lector"))
+                {
+                    <a asp-controller="Prestamos" asp-action="MisPrestamos" class="btn btn-outline-info">Mis Préstamos</a>
+                }
+                else
+                {
+                    <a asp-controller="Prestamos" asp-action="Index" class="btn btn-outline-info">Ver Préstamos</a>
+                }
+            </div>
+        </div>
+    </div>
+</div>

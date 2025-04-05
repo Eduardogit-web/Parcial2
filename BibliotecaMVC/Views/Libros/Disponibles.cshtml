@@ -1,0 +1,35 @@
+﻿@model IEnumerable<BibliotecaMVC.Models.Libro>
+
+@{
+    ViewData["Title"] = "Libros Disponibles";
+}
+
+<h1>Libros Disponibles para Préstamo</h1>
+
+<div class="alert alert-info">
+    <i class="bi bi-info-circle"></i> Estos son los libros que actualmente están disponibles para préstamo.
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="card-title">@item.Titulo</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text"><strong>Autor:</strong> @item.Autor.Nombre</p>
+                    <p class="card-text"><strong>Género:</strong> @item.Genero.Nombre</p>
+                    <p class="card-text"><strong>Año:</strong> @item.AnioPublicacion</p>
+                </div>
+                <div class="card-footer">
+                    <div class="d-grid gap-2">
+                        <a asp-controller="Prestamos" asp-action="Create" asp-route-libroId="@item.Id" class="btn btn-success">Solicitar Préstamo</a>
+                        <a asp-controller="Libros" asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

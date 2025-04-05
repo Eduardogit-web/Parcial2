@@ -1,0 +1,94 @@
+﻿@model IEnumerable<BibliotecaMVC.Models.Prestamo>
+
+@{
+    ViewData["Title"] = "Mis Préstamos";
+}
+
+<h1>Mis Préstamos</h1>
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5>Información</h5>
+            </div>
+            <div class="card-body">
+                <p>En esta sección puedes ver todos tus préstamos activos y el historial de préstamos.</p>
+                <p>Para solicitar un nuevo préstamo, visita la sección de <a asp-controller="Libros" asp-action="Disponibles">Libros Disponibles</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-warning text-dark">
+                <h5>Recordatorio</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>Recuerda:</strong> Debes devolver los libros en la fecha estipulada para evitar sanciones.</p>
+                <p>Si necesitas extender el período de préstamo, contacta con un bibliotecario.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3>Préstamos Activos</h3>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead class="table-primary">
+            <tr>
+                <th>Libro</th>
+                <th>@Html.DisplayNameFor(model => model.FechaPrestamo)</th>
+                <th>@Html.DisplayNameFor(model => model.FechaDevolucion)</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Where(p => !p.Libro.Disponible))
+            {
+                <tr class="@(DateTime.Now > item.FechaDevolucion ? "table-danger" : "")">
+                    <td>@Html.DisplayFor(modelItem => item.Libro.Titulo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.FechaPrestamo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.FechaDevolucion)</td>
+                    <td>
+                        @if (DateTime.Now > item.FechaDevolucion)
+                        {
+                            <span class="badge bg-danger">Vencido</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-warning">Activo</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<h3>Historial de Préstamos</h3>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead class="table-secondary">
+            <tr>
+                <th>Libro</th>
+                <th>@Html.DisplayNameFor(model => model.FechaPrestamo)</th>
+                <th>@Html.DisplayNameFor(model => model.FechaDevolucion)</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Where(p => p.Libro.Disponible))
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Libro.Titulo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.FechaPrestamo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.FechaDevolucion)</td>
+                    <td>
+                        <span class="badge bg-success">Devuelto</span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

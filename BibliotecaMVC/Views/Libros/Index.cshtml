@@ -1,0 +1,62 @@
+﻿@model IEnumerable<BibliotecaMVC.Models.Libro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Catálogo de Libros</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo</a>
+</p>
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Titulo)</th>
+                <th>@Html.DisplayNameFor(model => model.Autor)</th>
+                <th>@Html.DisplayNameFor(model => model.Genero)</th>
+                <th>@Html.DisplayNameFor(model => model.AnioPublicacion)</th>
+                <th>@Html.DisplayNameFor(model => model.Disponible)</th>
+                <th>Acciones</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Titulo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Autor.Nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Genero.Nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.AnioPublicacion)</td>
+                    <td>
+                        @if (item.Disponible)
+                        {
+                            <span class="badge bg-success">Disponible</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">Prestado</span>
+                        }
+                    </td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detalles</a>
+                            @if (User.IsInRole("Administrador") || User.IsInRole("Bibliotecario"))
+                            {
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Editar</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                            }
+                            @if (User.Identity.IsAuthenticated && User.IsInRole("Lector") && item.Disponible)
+                            {
+                                <a asp-controller="Prestamos" asp-action="Create" asp-route-libroId="@item.Id" class="btn btn-success btn-sm">Solicitar</a>
+                            }
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
