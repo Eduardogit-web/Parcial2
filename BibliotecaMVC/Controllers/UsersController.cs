@@ -67,7 +67,7 @@ namespace BibliotecaMVC.Controllers
                 Id = user.Id,
                 Email = user.Email,
                 Nombre = user.Nombre,
-                UserRoles = userRoles.ToList(),
+                UserRoles = [.. userRoles],
                 AllRoles = allRoles
             };
 

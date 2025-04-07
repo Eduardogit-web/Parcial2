@@ -59,13 +59,24 @@ namespace BibliotecaMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nombre,Nacionalidad")] Autor autor)
         {
-            if (ModelState.IsValid)
+            /* if (ModelState.IsValid)
+             {
+                 _context.Add(autor);
+                 await _context.SaveChangesAsync();
+                 return RedirectToAction(nameof(Index));
+             }
+             return View(autor);*/
+            try
             {
                 _context.Add(autor);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(autor);
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", "Error al guardar: " + ex.Message);
+                return View(autor);
+            }
         }
 
         // GET: Autores/Edit/5

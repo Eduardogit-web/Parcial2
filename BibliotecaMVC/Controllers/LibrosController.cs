@@ -79,16 +79,27 @@ namespace BibliotecaMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Titulo,AnioPublicacion,AutorId,GeneroId,Disponible")] Libro libro)
         {
-            if (ModelState.IsValid)
+            /* if (ModelState.IsValid)
+             {
+                 _context.Add(libro);
+                 await _context.SaveChangesAsync();
+                 return RedirectToAction(nameof(Index));
+             }*/
+
+            try
             {
                 _context.Add(libro);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-
-            ViewData["AutorId"] = new SelectList(_context.Autores, "Id", "Nombre", libro.AutorId);
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", "Error al guardar: " + ex.Message);
+                return View(libro);
+            }
+           /* ViewData["AutorId"] = new SelectList(_context.Autores, "Id", "Nombre", libro.AutorId);
             ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Nombre", libro.GeneroId);
-            return View(libro);
+            return View(libro);*/
         }
 
         // GET: Libros/Edit/5
